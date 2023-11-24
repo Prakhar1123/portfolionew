@@ -20,7 +20,10 @@
     width: 100%;
     padding: 10px; /* Adjust padding as needed */
 }
-
+footer {
+    background-color: black;
+    padding: 20px 0; /* Add padding as needed */
+}
         
       
         body {
@@ -314,7 +317,7 @@
         }
 
         footer {
-            background-color: #0e0e1a;
+            background-color:black;
         }
 
         .footer {
@@ -338,7 +341,7 @@
 
         footer .footer-rights {
             text-align: center;
-            color: gray;
+            color: black;
             padding: 12px 0;
         }
 
@@ -363,7 +366,7 @@
         flex-direction: column;
         /* align-items: center; */
     }
-   
+    
     nav {
         /* background-color: rgb(0, 0, 33); */
         width: 100%; 
@@ -377,20 +380,24 @@
         display: flex;
         flex-wrap: wrap;
         margin: 55px -21px;
+        margin-left: -75px;
         justify-content: space-around;
     }
 
     .secondsection .h1{
-        font-size: 1.5rem;
-    margin-left: -10px;
+        font-size: 1.9rem;
+    margin-left: -19px;
     }
 
+     .secondsection span{
+        margin-left:0px;
+     }
 
-    .leftsection {
-        font-size: 1.6rem;
-        margin-left: -132px;
+     .leftsection {
+    font-size: 1.6rem;
+    margin-left: 83px;
     text-align: center;
-    }
+}
 
     .leftsection .buttons{
         margin-right: 32px;
@@ -407,7 +414,7 @@
     max-width: 400px;
     margin-top: 10px;
     border-radius: 50%;
-    margin-left: 106px;
+    margin-left: 198px;
     }
     
     .secondsection text-grey .h1{
@@ -420,6 +427,7 @@
 }
     .contact-section{
           max-width: 90vw;
+          margin-left: 20px;
     }
     .project-box {
         width: calc(100% - 20px);
@@ -500,15 +508,20 @@
 .secondsection{
     margin-bottom: 1033px;
     padding-top: 10px;
+    margin-left: 206px;
 }
 .projects-section {
     max-width: 80vw;
     margin: 40px auto; /* Adjust the margin to control the space between sections */
     padding: 80px 0; 
+    
+    margin-left: 216px;
     /* Adjust the top and bottom padding to your preference */
 }
-.about-section{
+.about-section {
     margin-top: -1px;
+    margin-left: 199px;
+    padding: 19px;
 }
 .nav{
     max-width: 112%;
@@ -524,7 +537,85 @@ main hr {
     margin: 32px 12px;
     margin-right: 12px;
 }
+.skills-section {
+        max-width: 80vw;
+        margin: 40px auto 0;
+        padding: 40px 0;
+        text-align: center;
+        color: white;
+        margin-left: 256px; /* Adjust the margin-left to your preference */
+        margin-right: 20px; /* Adjust the right margin to your preference */
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .branch {
+        width: 45%;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex; /* Use flexbox to align items */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+.contact-section {
+        max-width: 90vw;
+        margin: 0 auto; /* Center the contact section */
+        padding: 40px 0; /* Adjust padding as needed */
+    }
+.contact-section .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 172px; /* Adjust margin as needed */
+    }
+.contact-section h1{
+    margin-left: 180px;
 }
+    .contact-form{
+        margin-left: 1px;
+    }
+    .contact-section .contact-form .input {
+        margin: 11px 0; /* Adjust margin as needed */
+        padding: 11px 47px;
+        width: 80%; /* Adjust width as needed */
+        box-sizing: border-box;
+        padding-left: 22px;
+    }
+    .contact-form input, .contact-form textarea {
+    margin: 10px 88px;
+    padding: 12px 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer{
+    /* width: 100%; */
+    margin-left: 151px;
+    background-color: black;
+}
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+    margin-left: 183px;
+    background-color: black;
+    margin-left: 169px;
+}
+.footer{
+    background-color: black;
+}
+
+footer{
+    background-color: #0e0e1a;
+}
+
+        }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .firstsection>div {
@@ -863,8 +954,8 @@ main hr {
         <!-- Add more project boxes as needed -->
 
         </section>
-        <footer>
-            <footer>
+        <footer style="background-color: black;">
+            
                 <div class="footer">
                     <div class="footer-first">
                         <h3>Prakhar's Developer portfolio</h3>
